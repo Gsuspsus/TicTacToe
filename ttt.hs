@@ -13,6 +13,8 @@ instance Show Square where
   show Cross = "X"
   show Circle = "O"
 
+--asdsad
+
 instance Show Player where
   show None = ""
   show (Player n v) = n ++ " (" ++ show v ++ ")"
